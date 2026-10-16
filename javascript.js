@@ -33,7 +33,7 @@ else if (numberinput.value >= 700 && numberinput.value <= 799){
     images.src = "images/kha.jpg"
 }
 
-else {
+else if(numberinput.value  >= 1 && numberinput.value <=99){
     images.src = "images/jagh.jpg"
 }
 }
