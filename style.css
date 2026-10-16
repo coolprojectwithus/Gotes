@@ -1,0 +1,74 @@
+/* /* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#prg {
+    font-size: 50px;
+    background-color: burlywood;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin: 50px 0px 50px 50px;
+    line-height: 200px;
+} */
+ /* برای کل صفحه */
+html, body {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE/Edge قدیمی */
+  overflow-x: hidden;           /* جلوگیری از اسکرول افقی */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari, Opera, موبایل‌ها */
+  width: 0;
+  height: 0;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#numinput{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: solid blueviolet 2px;
+    outline: solid rgb(203, 181, 224) 2px;
+    font-size: 17.5px;
+
+}
+
+#click{
+    font-size: 20px;
+    color: rgba(20, 7, 49, 0.397);
+    margin: 25px 0 0 0 ;
+    height: 70px;
+    width: 200px;
+    border: 0;
+    border-radius: 50px;
+    background-color: rgb(95, 182, 129);
+    font-family: calibri;
+
+}
+
+img{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;  
+    border-radius: 50%;
+}
+
+p{
+    font-size: 20px;
+    font-family:calibri;
+}
